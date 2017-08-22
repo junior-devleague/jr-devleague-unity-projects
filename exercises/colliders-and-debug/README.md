@@ -58,9 +58,29 @@ There are three main types of triggers we will be discussing and they are **OnTr
 
 #### OnTriggerEnter ()
 
-OnTriggerEnter is called when the collider called "other" enters the trigger.  You can set this up so that 
+OnTriggerEnter is called when the collider called "other" enters the trigger.  
+**Note: One of the GameObjects *must* have a Rigidbody component for a Trigger event to occur**
+
+You can call OnTriggerEnter () like so:
+
+void OnTriggerEnter () {
+  // do something
+}
 
 #### OnTriggerStay ()
 
+OnTriggerStay will be called once per frame for every collider that is touching the trigger.  
+
+void OnTriggerStay () 
+{
+  // do something
+}
+
 #### OnTriggerExit ()
 
+OnTriggerExit is called when the collider other has stopped touching the trigger.
+
+void OnTriggerExit ()
+{
+  // do something
+}
