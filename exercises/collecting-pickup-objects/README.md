@@ -6,7 +6,7 @@ This is going to give you the quick rundown of how to create Pick Up Objects and
 
 1. Create a new GameObject cube and reset it to Origin.  Rename it to "Pick Up".  Then, move it to a space a little away from the player.
 
-**Remember:** Everything has colliders that tell us when there can tell us where there has been an interaction.  This is found in the **Colliders** components in the GameObject. 
+      **Remember:** Everything has colliders that tell us when there can tell us where there has been an interaction.  This is found in        the    **Colliders** components in the GameObject. 
 
 2. Lift the Pick Up Object by .5 on y
    Adjust the Pick Up Object's x, y, z Scale to .5
@@ -14,9 +14,19 @@ This is going to give you the quick rundown of how to create Pick Up Objects and
    
 3. Create a new script in your script folder called "Rotate".  This is going to rotate the objects a certain degree per second.  It should look like this.
 
+![Screenshot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/collecting-pickup-objects/assets/Screen%20Shot%202017-08-28%20at%209.04.15%20PM.png)
 
+   transform.Rotate - directly changes the Rotate in the transform component.  
+   new Vector3 (15, 30, 45) - These are float variables that will directly override the Rotate numbers in each GameObject
+   Time.deltaTime - The time between the current frame and the last frame.  This will ensure that the transitions are smooth and          FrameRate independant.
+
+4. Apply the script to the GameObject, hit play to watch it rotate.  If there are any errors, reread the script and try to debug the issue.
+
+5. Create a new folder and name it **Prefabs** in the projects window.  Create a new empty Prefab from **Assets > Create > Prefab**, then drag the pick up cube into the empty prefab to save it and it's properties for later use.  
+
+   Optionally, you can just simply drag the Pick Up GameObject directly into the Prefab folder.
    
+6. Next, let's create a few more by duplicating the Pick Up GameObject.  Duplicate by either going to **Edit > Duplicate** or using the HOTKEY **'CMD + D' on Mac or 'CTRL + D' on Windows**.   Place them around the map.
 
-Open the PlayerController Script.
-
-  In the Script, under FixedUpdate add a function called OnTriggerEnter(Collider other)
+7. Now, change the color of the Pick Up object.
+   
