@@ -2,7 +2,7 @@
 
 This is going to give you the quick rundown of how to create Pick Up Objects and get them to work properly.
 
-# The Steps
+# The Steps to Creating A New Pick Up Object
 
 1. Create a new GameObject cube and reset it to Origin.  Rename it to "Pick Up".  Then, move it to a space a little away from the player.
 
@@ -16,9 +16,9 @@ This is going to give you the quick rundown of how to create Pick Up Objects and
 
 ![Screenshot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/collecting-pickup-objects/assets/Screen%20Shot%202017-08-28%20at%209.04.15%20PM.png)
 
-   transform.Rotate - directly changes the Rotate in the transform component.  
-   new Vector3 (15, 30, 45) - These are float variables that will directly override the Rotate numbers in each GameObject
-   Time.deltaTime - The time between the current frame and the last frame.  This will ensure that the transitions are smooth and          FrameRate independant.
+    transform.Rotate - directly changes the Rotate in the transform component.  
+    new Vector3 (15, 30, 45) - These are float variables that will directly override the Rotate numbers in each GameObject
+    Time.deltaTime - The time between the current frame and the last frame.  This will ensure that the transitions are smooth and          FrameRate independant.
 
 4. Apply the script to the GameObject, hit play to watch it rotate.  If there are any errors, reread the script and try to debug the issue.
 
@@ -30,3 +30,22 @@ This is going to give you the quick rundown of how to create Pick Up Objects and
 
 7. Now, change the color of the Pick Up object.
    
+# Now, to Collect Them
+
+1. Check mark the Pick Up GameObject's Collider is Trigger property.  **Remember:** Triggers is only used for triggering events and activated GameObjects are ignored by the physics engine.
+ 
+2. Create a custom tag for our Pick Ups called "Pick Up", set the Pick Up Prefabs tag to it.
+
+3. Open up the PlayerMove script.  At the bottom under fixedUpdate, make a new void OnTriggerEnter(Collider other) function.  This function is going to handle the trigger collision when the player comes in contact with the triggers on the Pick Up gameObject. 
+
+     The function should look something like this:
+
+![Screenshot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/collecting-pickup-objects/assets/Screen%20Shot%202017-08-28%20at%208.57.00%20PM.png)
+
+          Other.gameObject is simply the Collider that's passed in as the parameter.  It's whatever gameObject the player has touched and activated the fucntion with.  
+          if (other.gameObject.CompareTag("Pick Up")) is simply saying check the tag of the other gameObject, if it's "Pick Up" then run the next function.
+          SetActive(false) is the scripting way of deactivating a gameObject in the scene.
+
+4. Now, apply a "Rigidbody" component to our Pick Up Prefab and check mark the "is Kinematic" property in the GameObject.  This helps optimize Unity so it isn't making so many calculations.
+
+Happy Coding! Refer back to here if you have any questions.
