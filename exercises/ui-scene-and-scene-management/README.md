@@ -12,7 +12,7 @@ The UI is the GameObject that holds all of the information relevant to the playe
 
 In Unity, a UI is controlled by a GameObject called the **Canvas**.  This is the **parent** GameObject, and anything mentioned earlier goes inside of the Canvas.  It *is* possible to have more than one canvas per scene.
 
-Inside of the canvas are Elements that are considered the **children**.  These Elements will control and respond to parts of a game but are handled by the Canvas.  
+Inside of the canvas are Elements that are considered the **children**.  These Elements will control and respond to parts of a game but are handled inside the Canvas.  
 
 ## The Scene
 
@@ -27,4 +27,6 @@ Open up your Roll-A-Ball project.  Before you begin this portion, make sure that
 
 Okay, once you have those, let's move on!
 
-- Open the playerController script for editing
+- Open the playerController script for editing:
+  - Add a new private int variable called count
+  - 
