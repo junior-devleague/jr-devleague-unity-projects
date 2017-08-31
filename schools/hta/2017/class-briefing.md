@@ -29,6 +29,7 @@
 
 # Week 4 
 ## Class Recap 8/29/17 1:45pm - 3:05pm
+Today Zane gave me his Slack Code of Conduct form so we finally have everyone's conduct form.  Started off with a recap to creating pick up objects and making them kinematic trigger colliders.  We had time left over so we continued on into beginning our overlay so that we can keep a counter of how many objects we picked up.  Everyone had working pick up objects but some were geting issues with the OnTriggerEnter, we spent the rest of class debugging errors.  Tomorrow we'll be recapping what we went over today and then finishing up the scene manager so that on thursday we can begin 1st project discussion.
 
 ## Class Recap 8/30/17 1:45pm - 3:05pm
 Class went relatively well today.  Had about 10 students in class.  Recapped what we went over yesterday and finished roll-a-ball up with alotof student interaction.  Some of the students even got theirs finished.  Tomorrow we'll be debugging errors for some of the kids, beginning project discussions and then hopefully if we have time going over creating a death scene and transitioning between the main scene and the death scene.  
