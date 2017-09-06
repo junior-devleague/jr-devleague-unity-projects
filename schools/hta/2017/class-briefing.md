@@ -36,3 +36,7 @@ Class went relatively well today.  Had about 10 students in class.  Recapped wha
 
 ## Class Recap 8/31/17 1:45pm - 3:05pm
 Class started with recapping scene management and creating the Ui overlay.  Students were having trouble with creating a UI text element and getting it to work.  Took time to debug how to get the issue fixed.  Next, went into switching scenes upon death, it was a harder concept to understand so some students needed extra help and time debugging errors.  Didn't get to discuss projects, that will be saved for next week.  Assigned week #3 blog on what kind of game you want to create.  Zane has also agreed to be the project manager for the class and he will be presenting on a Game Development Document to the rest of the class.  He will also be directing the groups and keeping them on schedule with their projects.
+
+# Week 5
+## Class Recap 9/5/17 1:45pm - 3:05pm
+We started on project kickoff today.  We began with Zane presenting on the topic of the project and scope.  This is a free-for-all project, feel free to design your own genre but be wary of scope.  It MUST be functional and have some style.  Students got into groups of two and created team names.  Afterwards, Zane presented again on a GDD (Game Design Document), students brain-stormed and began making their own until the end of class.  Tomorrow, we'll be doing a concept review along with showing them how to import prototype assets from the store such as cameras and such.  By Thursday, GDD's should be finished and there will be another quiz.
