@@ -46,3 +46,7 @@ Class started off today with showing them how to access the prototype and Charac
 
 ## Class Recap 9/7/17 1:45pm - 3:05pm
 Class started with our HTA quiz #2.  Some kids got 100% on their quizzes which was really good.  After, we went over the blog assignment grading and that gave the kids more enthusiasm to get their blog posts finished even if it's late.  Once we were done with that, we began to give them time to continue working on their projects.  Some students are really enthusiastic and are buying packs off of the Unity Asset store.  We said they're allowed to if they're okay with spending their own money.  We then handed out blog assignment number 4 which was to explain to us in their own words what GDD's are and how they are beneficial to developing a video game.
+
+# Week 6
+## Class recap 9/12/17 1:45pm - 3:05pm
+Class was just a project wor day today.  Started with a kickoff talk from Zane who got a progress report from all of the students.  Most groups averaged about 15-20% finished with their projects so far.  Alot of students got some good progrss done today.  Elijah and Kaikapu figured out how to add trails to objects so they can create their multiplayer Tron game.  Josh and Justin created a Skybox as a CubeMap using an HDRi just to name a few.  Will be going over different lighting, along with audio for tomorrow's virtual class.
