@@ -50,3 +50,6 @@ Class started with our HTA quiz #2.  Some kids got 100% on their quizzes which w
 # Week 6
 ## Class recap 9/12/17 1:45pm - 3:05pm
 Class was just a project wor day today.  Started with a kickoff talk from Zane who got a progress report from all of the students.  Most groups averaged about 15-20% finished with their projects so far.  Alot of students got some good progrss done today.  Elijah and Kaikapu figured out how to add trails to objects so they can create their multiplayer Tron game.  Josh and Justin created a Skybox as a CubeMap using an HDRi just to name a few.  Will be going over different lighting, along with audio for tomorrow's virtual class.
+
+## Class recap 9/13/17 1:45pm - 3:05pm
+Virtual class went well today.  Still only getting about 11 out of 14 students participating in virtual classes.  That's okay, but some students will need to be recapped later on.  Today we went over Lighting, including the 4 different types of lights, ambient lighting and reflective lighting.  We went over how to change scenes from daytime to night time and then we went over skyboxes.  We also checked out the lighting settings menu, dynamic vs baking lighting and where to download new skyboxes and HDRi's.  Tomorrow, Raymond will be talking to each group in depth to find out where they are and how we can help their needs.
