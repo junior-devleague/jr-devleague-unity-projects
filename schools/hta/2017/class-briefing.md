@@ -53,3 +53,7 @@ Class was just a project wor day today.  Started with a kickoff talk from Zane w
 
 ## Class recap 9/13/17 1:45pm - 3:05pm
 Virtual class went well today.  Still only getting about 11 out of 14 students participating in virtual classes.  That's okay, but some students will need to be recapped later on.  Today we went over Lighting, including the 4 different types of lights, ambient lighting and reflective lighting.  We went over how to change scenes from daytime to night time and then we went over skyboxes.  We also checked out the lighting settings menu, dynamic vs baking lighting and where to download new skyboxes and HDRi's.  Tomorrow, Raymond will be talking to each group in depth to find out where they are and how we can help their needs.
+
+# Week 7
+## Class recap 9/19/17 1:45pm - 3:05pm
+Another project jam day today.  A lot of cool stuff happened with the students.  A lot of them made the decision to descale their projects because they realized the deadline was coming up soon.  Some students managed to get a multiplayer game working which is awesome.  And alot of others are working on design and styling.  Overall alot of their games are really looking good.  Tomorrow in the virtual class we'll be going over adding audio clips in 2d and 3d and attaching them to GameObjects.
