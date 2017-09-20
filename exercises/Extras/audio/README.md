@@ -40,9 +40,15 @@ Playing a 3D sound is a little more complicated.  Unlike a 2d sound, 3D sounds r
     - create a public AudioSource variable and name it SoundSource, then create a public AudioClip variable and name it SoundClip.
     - create a new OnTriggerEnter function that compares the tag for "Player" and if it passes, simply run SoundSource.Play();
     
+![ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/Extras/audio/assets/Screen%20Shot%202017-09-20%20at%203.35.59%20AM.png)
     
+10. Drag and drop the correct SoundClip and the correct SoundSource into their respective public variables
 
+11. Set the player Tag to Player
+
+And there you have it! Only when your player runs into the trigger, you should be able to hear your audio source.  Using triggers to activate sounds is very useful especially for adding sound effects.  Perhaps when you're an italian plumber collecting gold coins...  
 
 
 ## The Audio Mixer
 
+The Audio Mixer is a new Unity 5 feature that allows us to 'group' our sound sources together and add FX to multiple sound files at once.  That group's signal is then sent to a master level where we are able to control the entirety of sounds.  We are able to send individual Audio Sources through the Output option in the Audio Source component.  The Audio Mixer essentially allows us to make more complex routing, we can then 'mix' our sound sources by adding reverb, echo, etc. to our sound sources and then master them afterwards by adjusting levels correctly.  Of course, we could do this all individually, however by creating groups, we can correctly adjust levels and mixes for multiple different Sound sources at the same time.
