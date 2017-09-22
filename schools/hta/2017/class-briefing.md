@@ -62,4 +62,8 @@ First full week of jamming on projects coming to a close.  Most teams are still 
 ## Class recap 9/19/17 1:45pm - 3:05pm
 Another project jam day today.  A lot of cool stuff happened with the students.  A lot of them made the decision to descale their projects because they realized the deadline was coming up soon.  Some students managed to get a multiplayer game working which is awesome.  And alot of others are working on design and styling.  Overall alot of their games are really looking good.  Tomorrow in the virtual class we'll be going over adding audio clips in 2d and 3d and attaching them to GameObjects.
 
+## Class recap 9/20/17 1:45pm - 3:05pm
+Today's class we had about 12 students.  We first did a recap of lighting last week to prepare them for tomorrow's test.  All questions will be off of the repo so they should be okay.  Next we went into audio and how to use it.  We discussed the repo I made which included 3D and 2D audio, the audio mixer, and how to implement 3D audio with a trigger.  Tomorrow will be quiz #3 on lighting.
 
+## Class recap 9/21/17 1:45pm - 3:05pm
+Today marks the end of the second week of project jam.  We first started with test #3, some students did well, others not so much and I believe that's because we didn't go over it enough before testing them.  After, they continued working on our projects.  One group have learned Blender quickly to create their own environment which was really cool, another student is getting audio into their project.
