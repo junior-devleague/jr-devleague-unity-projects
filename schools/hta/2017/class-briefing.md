@@ -67,3 +67,13 @@ Today's class we had about 12 students.  We first did a recap of lighting last w
 
 ## Class recap 9/21/17 1:45pm - 3:05pm
 Today marks the end of the second week of project jam.  We first started with test #3, some students did well, others not so much and I believe that's because we didn't go over it enough before testing them.  After, they continued working on our projects.  One group have learned Blender quickly to create their own environment which was really cool, another student is getting audio into their project.  Next week will be the final week of working on our projects.
+
+#Week 8
+##Class recap 9/26/17 1:45pm - 3:05pm
+Today was the beginning of the last week of Project work day.  We reminded them that functionality should be finished and they should be using this last week to finish up polishing their games.  Caden has a really cool project where he has to fight aliens and survive as many rounds as possible.  Others projects are beginning to get really visually pleasing.  Tomorrow we'll be giving them a study guide so they can get ready for their quarterly exam in 2 weeks.
+
+##Class recap 9/27/17 1:45pm - 3:05pm
+Today was a good virtual class.  I showed them the study guide that I created for them on a website called quizlet.  The study guide consists of all the important key terms and concepts that we've gone over so far throughout the class from the UI interface, to all of the colliders, triggers, debug.log, the console window, then different types of lighting and audio.  You can use quizlet to study and test yourself so I was showing them how to use the website and we went through most of it together.  Tomorrow is the last class day to work on their projects and then presentations begin on Tuesday.
+
+##Class recap 9/28/17 1:45pm - 3:05pm
+Today was the last day of project work day.  Today was used to help students with polishing their projects more.  We checked all of the students and they have their functionality done while we gave them advice on how they can polish up their game better.  Students that felt satisfied with their projects went to other teams and were trying out eachother's games.  This will help them get inspired to make something better next project period.  We gave them a blog on teaching a Thing that we taught them.  Take a topic they understand well enough a write a blog to us explaining to us what topic they chose.  Presentations begin next week Tuesday.
