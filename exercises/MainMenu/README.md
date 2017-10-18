@@ -35,7 +35,9 @@
 
 13. Next, we can add about 70px of padding all around to push the buttons back into place.
 
-14. Duplicate our current panel and call it "Help Panel".  Deactivate the MainMenuPanel.
+14. Duplicate our current panel and call it "Help Panel".  DRAG IT OUT OF THE MAINMENUPANEL, IT IS NOT A CHILD OF THE MAINMENUPANEL, IT IS A CHILD OF THE CANVAS! <-- Later steps will not work if this hasn't changed. Then, Deactivate the MainMenuPanel.
+
+14b. Go to the Main Menu Panel's transform, click the gear icon, copy the component.  Go to HelpPanel and paste the component in.  This will ensure the two panels stay the same.
 
 15. Delete the different menu options except for the back option
 
@@ -59,3 +61,22 @@
 
 It should look like this:
 
+![ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/MainMenu/assets/Screen%20Shot%202017-10-18%20at%2012.48.47%20AM.png)
+
+25. Go back to the Start Button UI Element and go to the On Click () Event Listing.
+
+26. Where it says runtime only, drag and drop the LoadScene function and this will let you choose what function you want it to specifically run when you hit start.  *Now*, underneath, add in the index number you want to load, in this case it will be index "1" for the controller.
+
+27. Save and test your game.  When you hit start, it should take you to the Controller Scene.
+
+28. Next, go to your second button which should be labeled "HelpLabel" and go to the On Click () Event List.  Grab your MainMenuPanel and drop it into where it says "RunTime Only" this tells it we're going to target the entire panel.  Next to it, open it, highlight GameObject and click SetActive and leave the checkmark box unchecked.  This is the same thing as telling the GameObject's SetACtive to be false without coding it.
+
+29. Create another On Click that will be called as well, drag the Help Panel into RunTime Only and set the GameObject to True.
+
+30. Save and test your game.  You should be able to see your Help Panel when you hit Help.
+
+31. Now, create and attach a new C# script to our quit button and call it "QuitOnClick" open it in our text editor.
+
+32. Create a new public void function called "Quit" and create an if/else statement that quits game view if in editor, otherwise quits the application if not.  It should look like this:
+
+![ScreenShot](
