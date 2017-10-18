@@ -79,4 +79,8 @@ It should look like this:
 
 32. Create a new public void function called "Quit" and create an if/else statement that quits game view if in editor, otherwise quits the application if not.  It should look like this:
 
-![ScreenShot](
+![ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/MainMenu/assets/Screen%20Shot%202017-10-18%20at%2012.29.54%20PM.png)
+
+33. Go to quitButton's On Click(), drag the QuitOnClick script into the Runtime and inside function drag QuitOnClick.Quit()
+
+34. Save your game and test
