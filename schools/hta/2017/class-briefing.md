@@ -77,3 +77,17 @@ Today was a good virtual class.  I showed them the study guide that I created fo
 
 ##Class recap 9/28/17 1:45pm - 3:05pm
 Today was the last day of project work day.  Today was used to help students with polishing their projects more.  We checked all of the students and they have their functionality done while we gave them advice on how they can polish up their game better.  Students that felt satisfied with their projects went to other teams and were trying out eachother's games.  This will help them get inspired to make something better next project period.  We gave them a blog on teaching a Thing that we taught them.  Take a topic they understand well enough a write a blog to us explaining to us what topic they chose.  Presentations begin next week Tuesday.
+
+#Week 9
+##Class Recap 10/3/17
+Today was presentation day for all of the members.  It took all of class, alot of them had some really cool stuff to show.  Some students created Open Adventure games with different Win Objectives, other created Maze and Puzzle games.  Once each team was done presenting we gave the students the opportunity to walk around and play test eachother's games.  Note: Some student's computers didnt have an HDMI so we weren't able to connect them to the big screen and instead the students had to crowd around the computer to see the game.
+
+##Class Recap 10/5/17
+Today was the day of their Midterm exam, it was about 8 pages long and consisted of 45 questions with two extra credit. Class took about 45 minutes to finish so fo the last twenty minutes we gave them free time until class was over.  We showed Game CLips of upcoming games on the screen and inspired them all to look forward to new games coming out as well as ideas to put into their own game.
+
+#Week 10
+##Class Recap 10/17/2017
+Today was the first day back after break, it was a productive class with mainly discussion on what were going to be doing going forward.  We first discussed projects moving forward.  We talked about teams and if theyw anted to stay together for the next project or if they wanted to change.  Most teams wanted to stay together but some people wanted to work on their own or create new teams.  One student, Sasha Martinez is on the mainland and she's going to be gone for a week so her partner, Summer Polk is going to be working with someone else.  They all agreed to start over with their projects so we gave them new project requirements which are stricter than the last one.  We then had them work on their new GDD's until about 20 minutes before class where each team went up and presented their ideas for their new game.
+
+##Class Recap 10/18/2017
+Today we discussed creating a Menu Screen for their project which will be a requirement.  We had about 10 students in class today so we will have to go over this again tomorrow for the rest of the students. We got to about step 27 in the guide that I created which you can find here: https://github.com/junior-devleague/unity/tree/master/exercises/MainMenu.  Tomorrow we'll be finishing up the guide and hopefully they'll have enough time to start working on their own Main Menus.
