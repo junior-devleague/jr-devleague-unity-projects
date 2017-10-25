@@ -1,9 +1,31 @@
 # Guide to Picking Up Items using Raycasting!
 
-What is Raycasting? 
+## What is Raycasting? 
 Raycasting is a commonly used operation starting from a point of origin in which a line is sent out in a specific direction. The idea behind it is that specific ray checks for any colliders in it's path.  This is useful for things such as shooting a gun, determining player line of sight with AI, creating lasers, or determining a distance from a collider.
 
+![Screenshot](https://github.com/junior-devleague/unity/blob/master/exercises/RayCasting/assets/Raycast%20example.png)
+
 This guide is going to show you how to create a simple Raycast from a FPSController that'll show us our line of sight, we can then use that line of sight to interact with other objects.
+
+## How does it work?
+
+Raycasting is a Unity Physics tool that is already built in.  It looks like this:
+
+![Screenshot](https://github.com/junior-devleague/unity/blob/master/exercises/RayCasting/assets/Raycast%20Code.png)
+
+This looks complicated, but once we break it down it'll be much easier to understand.
+
+**Vector3 Origin** - A point in worldspace where the Raycast will begin that is stored as a Vector3
+
+**Vector 3 direction** - Another Vector3 coordinate that points us in the direction that the raycast is being sent out.
+
+**RaycastHit hitInfo** - A raycast hit variable that simply stores information on the collider(s) that is hit.
+
+The last two are optional, but they are:
+
+**float distance** - Simply the length of the ray.  Weapons for example will not have an infinite length.
+
+**int LayerMask** - A number of layer in Unity's layer system used if you want to ignore certain objects. 
 
 # The Steps
 
