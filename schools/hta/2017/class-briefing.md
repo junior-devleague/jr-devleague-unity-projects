@@ -91,3 +91,16 @@ Today was the first day back after break, it was a productive class with mainly 
 
 ##Class Recap 10/18/2017
 Today we discussed creating a Menu Screen for their project which will be a requirement.  We had about 10 students in class today so we will have to go over this again tomorrow for the rest of the students. We got to about step 27 in the guide that I created which you can find here: https://github.com/junior-devleague/unity/tree/master/exercises/MainMenu.  Tomorrow we'll be finishing up the guide and hopefully they'll have enough time to start working on their own Main Menus.
+
+##Class Recap 10/19/2017
+Today we recapped over creating a menu screen quickly.  I walked them through all the steps of creating a menu screen from the guide and helped out a few students after.  Next week we'll be moving into creating an fps using the first technique which is raycasting.
+
+#Week 11
+##Class Recap 10/24/2017
+Today was a project day.  We reminded them they have two and a half weeks left, projects are due on November 10th.  We'll be doing project work days every Tuesday and thre last week will be completely project work so they can get it finished.  Tomorrow we'll begin lessons on Raycasting and what it's used for.
+
+##Class Recap 10/25/2017
+Today was the first guide day for Raycasting.  There were only 7 students that showed up to Virtual due to PSAT's.  I explained and walked through the guide with them but we'll have to go through the guide again tomorrow for the rest of class.  That will be the lesson plan for tomorrow.
+
+##Class Recap 10/26/2017
+Today we recapped again on Raycasting.  I was able to show them everything in depth in person and answer any questions they had about raycasting.  The students began understanding raycasting and are able to use the code for their personal projects if necessary.  Next week we'll be going more in depth into creating an fps game.
