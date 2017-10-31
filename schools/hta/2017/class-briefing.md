@@ -68,39 +68,39 @@ Today's class we had about 12 students.  We first did a recap of lighting last w
 ## Class recap 9/21/17 1:45pm - 3:05pm
 Today marks the end of the second week of project jam.  We first started with test #3, some students did well, others not so much and I believe that's because we didn't go over it enough before testing them.  After, they continued working on our projects.  One group have learned Blender quickly to create their own environment which was really cool, another student is getting audio into their project.  Next week will be the final week of working on our projects.
 
-#Week 8
-##Class recap 9/26/17 1:45pm - 3:05pm
+# Week 8
+## Class recap 9/26/17 1:45pm - 3:05pm
 Today was the beginning of the last week of Project work day.  We reminded them that functionality should be finished and they should be using this last week to finish up polishing their games.  Caden has a really cool project where he has to fight aliens and survive as many rounds as possible.  Others projects are beginning to get really visually pleasing.  Tomorrow we'll be giving them a study guide so they can get ready for their quarterly exam in 2 weeks.
 
-##Class recap 9/27/17 1:45pm - 3:05pm
+## Class recap 9/27/17 1:45pm - 3:05pm
 Today was a good virtual class.  I showed them the study guide that I created for them on a website called quizlet.  The study guide consists of all the important key terms and concepts that we've gone over so far throughout the class from the UI interface, to all of the colliders, triggers, debug.log, the console window, then different types of lighting and audio.  You can use quizlet to study and test yourself so I was showing them how to use the website and we went through most of it together.  Tomorrow is the last class day to work on their projects and then presentations begin on Tuesday.
 
-##Class recap 9/28/17 1:45pm - 3:05pm
+## Class recap 9/28/17 1:45pm - 3:05pm
 Today was the last day of project work day.  Today was used to help students with polishing their projects more.  We checked all of the students and they have their functionality done while we gave them advice on how they can polish up their game better.  Students that felt satisfied with their projects went to other teams and were trying out eachother's games.  This will help them get inspired to make something better next project period.  We gave them a blog on teaching a Thing that we taught them.  Take a topic they understand well enough a write a blog to us explaining to us what topic they chose.  Presentations begin next week Tuesday.
 
-#Week 9
-##Class Recap 10/3/17
+# Week 9
+## Class Recap 10/3/17
 Today was presentation day for all of the members.  It took all of class, alot of them had some really cool stuff to show.  Some students created Open Adventure games with different Win Objectives, other created Maze and Puzzle games.  Once each team was done presenting we gave the students the opportunity to walk around and play test eachother's games.  Note: Some student's computers didnt have an HDMI so we weren't able to connect them to the big screen and instead the students had to crowd around the computer to see the game.
 
-##Class Recap 10/5/17
+## Class Recap 10/5/17
 Today was the day of their Midterm exam, it was about 8 pages long and consisted of 45 questions with two extra credit. Class took about 45 minutes to finish so fo the last twenty minutes we gave them free time until class was over.  We showed Game CLips of upcoming games on the screen and inspired them all to look forward to new games coming out as well as ideas to put into their own game.
 
-#Week 10
-##Class Recap 10/17/2017
+# Week 10
+## Class Recap 10/17/2017
 Today was the first day back after break, it was a productive class with mainly discussion on what were going to be doing going forward.  We first discussed projects moving forward.  We talked about teams and if theyw anted to stay together for the next project or if they wanted to change.  Most teams wanted to stay together but some people wanted to work on their own or create new teams.  One student, Sasha Martinez is on the mainland and she's going to be gone for a week so her partner, Summer Polk is going to be working with someone else.  They all agreed to start over with their projects so we gave them new project requirements which are stricter than the last one.  We then had them work on their new GDD's until about 20 minutes before class where each team went up and presented their ideas for their new game.
 
-##Class Recap 10/18/2017
+## Class Recap 10/18/2017
 Today we discussed creating a Menu Screen for their project which will be a requirement.  We had about 10 students in class today so we will have to go over this again tomorrow for the rest of the students. We got to about step 27 in the guide that I created which you can find here: https://github.com/junior-devleague/unity/tree/master/exercises/MainMenu.  Tomorrow we'll be finishing up the guide and hopefully they'll have enough time to start working on their own Main Menus.
 
-##Class Recap 10/19/2017
+## Class Recap 10/19/2017
 Today we recapped over creating a menu screen quickly.  I walked them through all the steps of creating a menu screen from the guide and helped out a few students after.  Next week we'll be moving into creating an fps using the first technique which is raycasting.
 
-#Week 11
-##Class Recap 10/24/2017
+# Week 11
+## Class Recap 10/24/2017
 Today was a project day.  We reminded them they have two and a half weeks left, projects are due on November 10th.  We'll be doing project work days every Tuesday and thre last week will be completely project work so they can get it finished.  Tomorrow we'll begin lessons on Raycasting and what it's used for.
 
-##Class Recap 10/25/2017
+## Class Recap 10/25/2017
 Today was the first guide day for Raycasting.  There were only 7 students that showed up to Virtual due to PSAT's.  I explained and walked through the guide with them but we'll have to go through the guide again tomorrow for the rest of class.  That will be the lesson plan for tomorrow.
 
-##Class Recap 10/26/2017
+## Class Recap 10/26/2017
 Today we recapped again on Raycasting.  I was able to show them everything in depth in person and answer any questions they had about raycasting.  The students began understanding raycasting and are able to use the code for their personal projects if necessary.  Next week we'll be going more in depth into creating an fps game.
