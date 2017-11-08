@@ -104,3 +104,17 @@ Today was the first guide day for Raycasting.  There were only 7 students that s
 
 ##Class Recap 10/26/2017
 Today we recapped again on Raycasting.  I was able to show them everything in depth in person and answer any questions they had about raycasting.  The students began understanding raycasting and are able to use the code for their personal projects if necessary.  Next week we'll be going more in depth into creating an fps game.
+
+#Week 12
+##Class Recap 10/31/2017
+Today was a project work session day.  We get percentages of overall completion for the project.  Most students have about 60-80% finnished with a few that are a little behind.  I will be setting up personal sessions with students to help those that are behind get their work completed.
+
+##Class Recap 11/1/2017
+Today's virtual session went over the basics of using FPS to create a simulated player with a gun.  This would include bullets, aiming, animation, raycasting, reloading, semi/auto fire.  Players will be able to use what we learned today to create the player for any FPs games.
+
+##Class Recap 11/2/2017
+Today's session went over using the lesson we went over yesterday in person.  We also gave them time to work on their projects before handing them their weekyl blog which was "Name a Company you would want to work for and give us information about them and why you would want to work there."
+
+#Week 13
+##Class Recap 11/7/2017
+Today begins the last week of their second project so it is going to be a project work session all week. Students will be completing all of their projects and presenting on Thursday. Most students have their projects just about finnished while some have some things to do.  I will be having personal online sessions with them to help them catch up. s
