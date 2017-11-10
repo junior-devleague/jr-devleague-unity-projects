@@ -118,5 +118,7 @@ Today's session went over using the lesson we went over yesterday in person.  We
 
 # Week 13
 ## Class Recap 11/7/2017
-Today begins the last week of their second project so it is going to be a project work session all week. Students will be completing all of their projects and presenting on Thursday. Most students have their projects just about finnished while some have some things to do.  I will be having personal online sessions with them to help them catch up. s
+Today begins the last week of their second project so it is going to be a project work session all week. Students will be completing all of their projects and presenting on Thursday. Most students have their projects just about finnished while some have some things to do.  I will be having personal online sessions with them to help them catch up. 
 
+## Class Recap 11/9/2017
+Project presentations! Every team except Natasha was able to present.  She will be doing it on Tuesday.  They were asked to Slack us builds of their games.  We'll be chasing the builds pretty hard as some of the games are pretty hilarious and unique.  Gave them a heads up on their final game of the semester and how it will be release.  Mark will give them details on Tuesday about structure of the project and how it will be graded.  What we will iterate and improve on next project is to implement a grading mechanism to deter freeloaders. 
