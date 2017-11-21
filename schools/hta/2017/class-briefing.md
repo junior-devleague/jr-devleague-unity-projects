@@ -103,20 +103,35 @@ Today was a project day.  We reminded them they have two and a half weeks left, 
 Today was the first guide day for Raycasting.  There were only 7 students that showed up to Virtual due to PSAT's.  I explained and walked through the guide with them but we'll have to go through the guide again tomorrow for the rest of class.  That will be the lesson plan for tomorrow.
 
 
-##Class Recap 10/26/2017
+## Class Recap 10/26/2017
 Today we recapped again on Raycasting.  I was able to show them everything in depth in person and answer any questions they had about raycasting.  The students began understanding raycasting and are able to use the code for their personal projects if necessary.  Next week we'll be going more in depth into creating an fps game.
 
-#Week 12
-##Class Recap 10/31/2017
+# Week 12
+## Class Recap 10/31/2017
 Today was a project work session day.  We get percentages of overall completion for the project.  Most students have about 60-80% finnished with a few that are a little behind.  I will be setting up personal sessions with students to help those that are behind get their work completed.
 
-##Class Recap 11/1/2017
+## Class Recap 11/1/2017
 Today's virtual session went over the basics of using FPS to create a simulated player with a gun.  This would include bullets, aiming, animation, raycasting, reloading, semi/auto fire.  Players will be able to use what we learned today to create the player for any FPs games.
 
-##Class Recap 11/2/2017
+## Class Recap 11/2/2017
 Today's session went over using the lesson we went over yesterday in person.  We also gave them time to work on their projects before handing them their weekyl blog which was "Name a Company you would want to work for and give us information about them and why you would want to work there."
 
-#Week 13
-##Class Recap 11/7/2017
-Today begins the last week of their second project so it is going to be a project work session all week. Students will be completing all of their projects and presenting on Thursday. Most students have their projects just about finnished while some have some things to do.  I will be having personal online sessions with them to help them catch up. s
+# Week 13
+## Class Recap 11/7/2017
+Today begins the last week of their second project so it is going to be a project work session all week. Students will be completing all of their projects and presenting on Thursday. Most students have their projects just about finished while some have some things to do.  I will be having personal online sessions with them to help them catch up.
+
+## Class Recap 11/8/2017
+Today's class was simply to make sure all students had their projects setup properly and collaberated with Raymond so they can present tomorrow.
+
+## Class Recap 11/9/2017
+
+# Week 14
+## Class recap 11/14/2017
+Today's class was used to present final projects.  We allowed groups of up to 4 to work together.  One group decided to work as 4 and one group went as a group of 3.  The rest of the class went as solo or paired up.  They were required to start a new game from scratch with the requirements that were set by what we learned over the past few months.  They were to begin their GDD's and have them turned into me by next week Thursday.
+
+## Class Recap 11/15/2017
+Today's class was kept short and was used to finalize everyone's project ideas groups.  They were told to give us a description of their game, who their team members were, and a reason why their project group wanted to follow said idea.
+
+## Class Recap 11/16/2017
+Today's class was used as another project work day.  Most students have begun working on their project, working on the collaboration and starting on their environments.  Most were looking up free assets that they would be able to use on their projects.
 
