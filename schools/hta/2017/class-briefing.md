@@ -124,6 +124,7 @@ Today begins the last week of their second project so it is going to be a projec
 Today's class was simply to make sure all students had their projects setup properly and collaberated with Raymond so they can present tomorrow.
 
 ## Class Recap 11/9/2017
+Project presentations! Every team except Natasha was able to present.  She will be doing it on Tuesday.  They were asked to Slack us builds of their games.  We'll be chasing the builds pretty hard as some of the games are pretty hilarious and unique.  Gave them a heads up on their final game of the semester and how it will be release.  Mark will give them details on Tuesday about structure of the project and how it will be graded.  What we will iterate and improve on next project is to implement a grading mechanism to deter freeloaders.
 
 # Week 14
 ## Class recap 11/14/2017
@@ -134,4 +135,3 @@ Today's class was kept short and was used to finalize everyone's project ideas g
 
 ## Class Recap 11/16/2017
 Today's class was used as another project work day.  Most students have begun working on their project, working on the collaboration and starting on their environments.  Most were looking up free assets that they would be able to use on their projects.
-
