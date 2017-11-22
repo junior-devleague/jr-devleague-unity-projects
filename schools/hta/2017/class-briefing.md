@@ -135,3 +135,7 @@ Today's class was kept short and was used to finalize everyone's project ideas g
 
 ## Class Recap 11/16/2017
 Today's class was used as another project work day.  Most students have begun working on their project, working on the collaboration and starting on their environments.  Most were looking up free assets that they would be able to use on their projects.
+
+# Week 15
+## Class Recap 11/21/2017
+Today's class started with a standup update for every group.  Each group was about on average done with 30% of their game so far.  Most are running into blockers with Unity's collaboration system causing issues between different versions of Unity.  Apart from that some are stuck with coding which we can help them out with.  Tomorrow's class will be a quiz and then a introduction to itch.io which will be the platform we'll be using to ship their games.
