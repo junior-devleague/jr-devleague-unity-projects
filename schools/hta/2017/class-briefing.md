@@ -139,3 +139,10 @@ Today's class was used as another project work day.  Most students have begun wo
 # Week 15
 ## Class Recap 11/21/2017
 Today's class started with a standup update for every group.  Each group was about on average done with 30% of their game so far.  Most are running into blockers with Unity's collaboration system causing issues between different versions of Unity.  Apart from that some are stuck with coding which we can help them out with.  Tomorrow's class will be a quiz and then a introduction to itch.io which will be the platform we'll be using to ship their games.
+
+## Class Recap 11/22/2017
+Today's class was used to give them their quiz online.  I gave them a link to a quiz where they were able to complete and have it graded online.  After we showed them Itch.io which is the indie developer website where they will be uploading their final projects.  We're going to pull them down and be able to play them on our computers for their grade.
+
+# Week 16
+## Class Recap 11/28/2017
+Today's class was another project work session.  Most kids are getting their environments finished and are beginnning to work on their core gameplay.  Projects will be due on Thurs Dec 14 so they have approximately 16 days until their projects are due.  
