@@ -156,3 +156,7 @@ Today's class was a project work day, however they were to work on the goals tha
 # Week 17
 ## Class Recap 12/5/2017
 Today's class started off with a Schedule listing for the last two weeks of class.  We decided their final exam will be next week tuesday 12/12, on thursday 12/14 they will have a round table where they will review the class and give us feedback, and on 12/19 projects will be due for a presentation and were going to have a party as well.
+
+# Week 16
+## Class Recap 11/28/2017
+Today's class was another project work session.  Most kids are getting their environments finished and are beginnning to work on their core gameplay.  Projects will be due on Thurs Dec 14 so they have approximately 16 days until their projects are due.
