@@ -139,3 +139,20 @@ Today's class was used as another project work day.  Most students have begun wo
 # Week 15
 ## Class Recap 11/21/2017
 Today's class started with a standup update for every group.  Each group was about on average done with 30% of their game so far.  Most are running into blockers with Unity's collaboration system causing issues between different versions of Unity.  Apart from that some are stuck with coding which we can help them out with.  Tomorrow's class will be a quiz and then a introduction to itch.io which will be the platform we'll be using to ship their games.
+
+## Class Recap 11/22/2017
+Today's class was an online quiz, there were 5 questions for the quiz, the quiz was done on EasyTestMaker and they were given a link with a password.  After, we gave them a quick intro to itch.io, they were able to make accounts that they will be using for their games.
+
+# Week 16
+## Class Recap 11/28/2017
+Today's class was another Project work day.  Was able to help out a few students with buggy code and UI issues.  Most projects are at about 50% fiinshed.
+
+## Class Recap 11/29/2017
+Today's class was a shorter class used to remind them about their project due date and productivity in class.  We had each student give us a blocker and what they are going to have completed by tomorrow.
+
+## Class Recap 11/30/2017
+Today's class was a project work day, however they were to work on the goals that they told us they would finish the day before.  We kept notes of what each students goals' were and we went around asking them if they got their gols completed.  Some students got it finished but others were still having issues.  We will continue to help them with their projects.
+
+# Week 17
+## Class Recap 12/5/2017
+Today's class started off with a Schedule listing for the last two weeks of class.  We decided their final exam will be next week tuesday 12/12, on thursday 12/14 they will have a round table where they will review the class and give us feedback, and on 12/19 projects will be due for a presentation and were going to have a party as well.
