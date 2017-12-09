@@ -72,4 +72,19 @@ Okay, once you have those, let's move on!
 
 ![Screenshot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/ui-scene-and-scene-management/assets/Screen%20Shot%202017-08-28%20at%2011.33.52%20PM.png)
 
+18. Create a new quad that will become the "trigger" for our death.  Remember: Check mark the "is Trigger" property in our box collider.
+
+19. Place the quad below the floor where it will trigger after our character falls off the side.
+
+20. Rename the new quad to "DeathTrigger" and create a new "Death" tag for our quad.  
+
+21. In our player move script, we need to use the Scene Manager toolset.  So place:
+
+`using UnityEngine.SceneManagement`
+
+22. Now, in our OnTriggerEnter function, let's create a seperate if statement that compares our "Death" tag, then we can use our `SceneMananger.LoadScene ("Death Scene")`
+
+23. Create a new scene, this new scene will only have a button with a script attached to it.  
+The script is simple, it will look like this:
+
 
