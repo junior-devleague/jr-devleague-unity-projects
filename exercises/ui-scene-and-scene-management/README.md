@@ -87,4 +87,6 @@ Okay, once you have those, let's move on!
 23. Create a new scene, this new scene will only have a button with a script attached to it.  
 The script is simple, it will look like this:
 
+![Screenshot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/ui-scene-and-scene-management/assets/Untitled.png)
 
+24.  After, attach the button to the public button variable in the inspector window.  
