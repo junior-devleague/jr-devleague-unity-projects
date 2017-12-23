@@ -59,3 +59,49 @@ In Apple's latest software release, Apple has pushed the boundaries just a littl
 
 ### Overview
 
+![ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/Augmented-Reality/Assets/Screen%20Shot%202017-12-22%20at%207.46.11%20PM.png)
+
+*Taken directly from https://developer.apple.com/arkit/
+
+### The Steps 
+
+Prerequisites
+
+1. Unity Engine (IMP: Unity’s AR Kit requires the patch version of Unity 5.6.1p1 or later. )
+2. Xcode 9 or later (I have version 9.0.1)
+3. Apple A9/A10 Processor device with iOS 11 installed
+4. Unity ARKit Plugin (download from the asset store)
+
+### Begin!
+
+1. Create a new Unity Project, name it "ARKit Church"
+
+2. Access the Unity Store and download the 'ARKit' Plugin
+  OR you can find it online here: https://bitbucket.org/Unity-Technologies/unity-arkit-plugin/downloads/
+  
+  To import a new custom package:
+  Choose Assets > Import Package > Custom Package
+  
+  Select the package you want from Explorer or Finder, and the Import Unity Package dialog box displays, with all the items in the package  pre-checked, ready to install. 
+  
+  Select Import and Unity puts the contents of the package into the Assets folder, which you can access from your Project View.
+  
+  Once it’s finished, a window will appear with all the files in the package. Click on the “Import” button.
+  
+3. Inside of Unity's project window, open the UnityARShadows scene and drag into your hierarchy
+
+4. Return back to Unity Asset Store and install the "Church 3D" asset, this is going to be our main focal point for this assignment.
+
+5. Now, let's finish setting up our scene.  Delete the extra GameObjects we don't need including: Delete all unwanted Game Objects: RandomCube, HitPlayer, PointCloudExample, PointCloudParticleExample.
+
+6. Open the Chursh 3D asset and make the "church prefab" a child of the "HitCubeParent" GameObject.  Reset the church prefab to Origin
+
+7. Grab the UnityARGeneratePlane script and attach it to the Church prefab, then, set the HitCubeParent inside the public variable "Plane Prefab" 
+
+8. Now, set up the CameraParent prefab next.  It should have a transform of:
+
+Position:  X=-5,   Y=2,    Z=-3 
+
+Rotation:  X=0,    Y=90,   Z=0 
+
+Scale:     X=1,    Y=1,    Z=1 
