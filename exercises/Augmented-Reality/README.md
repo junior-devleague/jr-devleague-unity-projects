@@ -68,7 +68,7 @@ In Apple's latest software release, Apple has pushed the boundaries just a littl
 Prerequisites
 
 1. Unity Engine (IMP: Unity’s AR Kit requires the patch version of Unity 5.6.1p1 or later. )
-2. Xcode 9 or later (I have version 9.0.1)
+2. Xcode ver 9.2 (This is important! 11.2 iOS isn't compatible before this version) https://developer.apple.com/download/more/
 3. Apple A9/A10 Processor device with iOS 11 installed
 4. Unity ARKit Plugin (download from the asset store)
 
@@ -105,3 +105,27 @@ Position:  X=-5,   Y=2,    Z=-3
 Rotation:  X=0,    Y=90,   Z=0 
 
 Scale:     X=1,    Y=1,    Z=1 
+
+9. Hit 'Run' to make sure everything works fine, should be a green background 
+
+10. Next, go to build settings, add your open scene (Save your file first!) and switch to iOS.
+
+11. Hit build, after it's done, open up your files xcodeproj file which will open it automaitcally in Xcode
+
+12. Connect your iPhone, allow your computer to trust and access it.  Go in to Settings > General > Device Management > Developer APP > Trust Developer.
+
+13. Double click your project name, hit info, and in the top left switch from project iphone-untiy to targets iphone unity this is where you will set your team name to your developer.  Then, rename your bundle identifier to "Church".  Leave it at that.
+
+14. Close out all apps on your phone and stay at the home screen.
+
+15. With everything filled out, hit play in the upper left corner to compile before running.  
+
+16. If everything works, your church should show up on your screen!
+
+Note:
+
+There WILL be lots of bugs and ghost errors as this is still an experimental plugin and bugs haven't been worked out yet.  
+Errors such as:
+Code Signing / Application in Xcode
+Xcode 9 does not support 11.2.1
+
