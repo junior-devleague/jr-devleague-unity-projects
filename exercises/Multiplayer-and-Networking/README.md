@@ -54,4 +54,5 @@ In void update: Create new float variables called horizontal and vertical.  Usin
 
 It should look like this:
 
-![ScreenShot]( ) 
+![ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/Multiplayer-and-Networking/Assets/Screen%20Shot%202018-01-12%20at%208.54.46%20PM.png) 
+
