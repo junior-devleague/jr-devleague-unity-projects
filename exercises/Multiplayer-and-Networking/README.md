@@ -64,3 +64,73 @@ It should look like this:
 
 Public override void is a method that allows a local function to override features that are already provided by a superclass.  In this case, NetworkBehaviour.
 
+# If you don't understand everything that's happened so far, review and grok! 
+
+13. Create a new sphere GameObject, adjust the scale to .2, .2, .2.  This is going to be our bullet.
+
+14. Add a Rigidbody component and disable the "Use Gravity" property.
+
+15. Make it a Prefab for later use.  
+
+16. Open up the PlayerController Script again
+
+   Create a public GameObject variable called bulletPrefab, and a public Transform called bulletSpawn.
+   
+   bulletPrefab will hold the bullet we just created and the Transform is going to dictate where it spawns from. i.e. Our gun.
+
+17. Create a new if statement that will listen for our Spacebar input (alternatively, you can use your mouse 1 if you want to) that will ru a method called fire();
+
+18. Create the new method called fire();
+   
+   This method is going to instantiate a bullet from our bulletSpawn with the bullets rotation.  
+   
+   It will add a velocity to our bullet 
+   
+   And Then destroy the bullet after 2 seconds (Objects not destroyed will continue to stay in motion and will eventually take up too much space)
+   
+   ## Try to make the script on your own
+   
+   Otherwise, it should look something like this:
+   
+   ![ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/Multiplayer-and-Networking/Assets/Screen%20Shot%202018-01-12%20at%2010.50.20%20PM.png)
+   
+   ![ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/Multiplayer-and-Networking/Assets/Screen%20Shot%202018-01-12%20at%2010.51.47%20PM.png)
+   
+19. Create a gun as a child of our player.  You can use a cylinder for basic purposes or you may find a gun from the asset store, there are plenty of free ones.  
+
+**Be sure to remove the collider from the gun as bullets that are spawned will collide with the gun and be destroyed**
+
+20. Create an empty game object which will be our bullet spawn point.  Place this at the edge of your gun.
+
+21. Place the bullet GameObject and bullet spawn into our public variables for our playercontroller script.
+
+22. Save your game and test.  You should be able to shoot your bullets.  However, your bullets will not by synced up over the network.
+
+23. Add the "Network Transform" component to the bullet so our Network Manager is made aware of the bullet.  Decrease the network send rate to 0.
+
+24. Next, click the Network Manager GameObject and look for "Registered Spawnable Prefabs" Add a new entry and drag our bullet prefab into it.  
+
+25.  Go back to the Playercontroller script, we will need to make some changes to our Fire script.
+      Currently, our Fire script is only on our local build, it isn't being registered on our server.  So we need to create a command to our server.
+      
+      To do so, add an attribute above our fire method like so: 
+      
+      [Command]
+      
+      Cmdfire();
+      
+      Be sure to place CmdFire(); inside of our Input.GetKeyDown as well.
+      
+      What this is saying is "Run the command on this player instance on the server so that it may cross over into other local clients"
+      
+      Now, inside of the CmdFire() method, add a bullet spawn like so:
+
+      NetworkServer.Spawn(bullet);
+
+      Your code at the end should look something like this:
+
+      ![ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/Multiplayer-and-Networking/Assets/Screen%20Shot%202018-01-12%20at%2011.37.52%20PM.png)
+
+      If it compiles, the congrats! You can now shoot a gun over multiple clients through the server.
+
+      Next we will be going over PlayerHealth and damaging the other player
