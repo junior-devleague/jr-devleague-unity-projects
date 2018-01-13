@@ -56,3 +56,11 @@ It should look like this:
 
 ![ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/Multiplayer-and-Networking/Assets/Screen%20Shot%202018-01-12%20at%208.54.46%20PM.png) 
 
+11. Save your work
+
+12. Now, to differentiate between our player and another player, we're going to make our local player blue. To do this, inside of teh playercontroller script, add this to the bottom of the script.
+
+![ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/Multiplayer-and-Networking/Assets/Screen%20Shot%202018-01-12%20at%209.39.31%20PM.png)
+
+Public override void is a method that allows a local function to override features that are already provided by a superclass.  In this case, NetworkBehaviour.
+
