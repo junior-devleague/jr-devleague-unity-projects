@@ -49,3 +49,9 @@ This component contains tracking information like what scene ID, network ID and 
 9. Add the Player as a "prefab".  In the Network Manager, open "Spawn Info" and then drag the Player GameObject to "Player Prefab".
 
 10. Create a new C# script, this will be our player movement script.  
+
+In void update: Create new float variables called horizontal and vertical.  Using the Input Manager, grab the horizontal and vertical axis and store them inside each variable respectively.  Multiply the horizontal axis by Time.Deltatime * 150.0f and the Vertical by Time.DeltaTime * 3.0f.  Then, use transform.Rotate by (0,horizontal,0). And finally, use transform.Translate (0, 0, vertical)
+
+It should look like this:
+
+![ScreenShot]( ) 
