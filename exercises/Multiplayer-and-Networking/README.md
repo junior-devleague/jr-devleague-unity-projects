@@ -261,5 +261,30 @@ Public override void is a method that allows a local function to override featur
  48. Save your work.
  
    We are now going to move on to Dying and Respawning
+   
+   To do this, we are going to create a new special function for handling respawning and reinstating health which will be handled on the server side.
+   
+   This is going to use a Rpc function, you can look up more about Rpc here: https://docs.unity3d.com/ScriptReference/Networking.ClientRpcAttribute.html
 
- 49. 
+   But in it's essence, a clientRpc function handles methods that will be instantiated on the client from the server.  
+   
+   it uses an attribute called [clientRpc] and the method **HAS** to be called Rpc____, this is due to the server serializing the method to be used across every client.
+   
+   In this case it will be called RpcRespawn()
+   
+   Inside of RpcRespawn, write an "if" statement that will check if it is a localPlayer as this only works on the localPlayer.  If the check passes, set the players transform.position to new Vector3.zero.  This is the same thing as Origin.
+   
+   This is what it should look like:
+   
+   ![ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/Multiplayer-and-Networking/Assets/Screen%20Shot%202018-01-20%20at%201.55.23%20AM.png)
+   
+49. Where it says currentHealth -= amount, set currentHealth equal to maxHealth (that way server reinstantiates the health to max) then call our Rpcrespawn(); method. 
+
+   This is what it should look like in the end:
+      
+   ![ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/Multiplayer-and-Networking/Assets/Screen%20Shot%202018-01-20%20at%201.55.35%20AM.png)
+      
+
+   Now, when a healthbar hits 0, our server will call the RpcRespawn function, and only the localplayer will satisfy the if statement condition and our line of code will run.  
+
+   Now, you should be able to die and respawn and it will be synchronized with each client across the board.  
