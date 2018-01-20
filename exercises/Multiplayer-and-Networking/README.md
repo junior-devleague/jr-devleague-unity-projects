@@ -134,3 +134,13 @@ Public override void is a method that allows a local function to override featur
       If it compiles, the congrats! You can now shoot a gun over multiple clients through the server.
 
       Next we will be going over PlayerHealth and damaging the other player
+
+26. Create a new C# script, call it playerHealth
+         Instantiate a new public int "const" variable, call it maxHealth and set it to 100
+         Create a new int variable called currentHealth and set it to maxHealth on start
+         Create a new Public void method call TakeDamage, it should have a parameter of (int amount), inside, set currentHealth -= amount.
+         Then create an if statement checking "if currentHealth <= 0", set currentHealth to 0.
+
+         Here's what it will look like:
+         
+         ![ScreenShot]()
