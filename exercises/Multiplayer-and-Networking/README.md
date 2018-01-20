@@ -111,6 +111,7 @@ Public override void is a method that allows a local function to override featur
 24. Next, click the Network Manager GameObject and look for "Registered Spawnable Prefabs" Add a new entry and drag our bullet prefab into it.  
 
 25.  Go back to the Playercontroller script, we will need to make some changes to our Fire script.
+
       Currently, our Fire script is only on our local build, it isn't being registered on our server.  So we need to create a command to our server.
       
       To do so, add an attribute above our fire method like so: 
@@ -135,12 +136,130 @@ Public override void is a method that allows a local function to override featur
 
       Next we will be going over PlayerHealth and damaging the other player
 
-26. Create a new C# script, call it playerHealth
-         Instantiate a new public int "const" variable, call it maxHealth and set it to 100
-         Create a new int variable called currentHealth and set it to maxHealth on start
-         Create a new Public void method call TakeDamage, it should have a parameter of (int amount), inside, set currentHealth -= amount.
-         Then create an if statement checking "if currentHealth <= 0", set currentHealth to 0.
+26. Create a new C# script and call it playerHealth
 
-         Here's what it will look like:
+      Instantiate a new public int "const" variable, call it maxHealth and set it to 100
          
-         ![ScreenShot]()
+      Create a new int variable called currentHealth and set it to maxHealth on start
+         
+      Create a new Public void method call TakeDamage, it should have a parameter of (int amount), inside, set currentHealth -= amount.
+         
+      Then create an if statement checking "if currentHealth <= 0", set currentHealth to 0.
+
+      Here's what it will look like:
+         
+      ![ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/Multiplayer-and-Networking/Assets/Screen%20Shot%202018-01-19%20at%2011.57.15%20PM.png)
+      
+27. Go into the bullet script
+
+      Add a parameter to the OnCollisionEnter function, call it (Collision collision)
+      
+      Add a new GameObject variable called "GameObject hit", set it to collision.gameObject
+      
+      Set a new health variable called "Health health", set it equal to hit.GetComponent<playerHealth>(); This is going to reference our new playerHealth script
+   
+      Then, create a new if statement, if health != null (isnt equal to null, which means it successfully grabbed the script) call our health.TakeDamage(10);
+      
+      This means that if a bullet collides with a player, reference our health script and call the TakeDamage method.
+      
+      It should look like this:
+      
+      ![ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/Multiplayer-and-Networking/Assets/Screen%20Shot%202018-01-19%20at%2011.57.39%20PM.png)
+      
+28. Now, create a new UI image, rename the canvas to healthbar canvas
+
+29. Rename the image to "Healthbar background"
+
+30. Reset the image to origin, and change the source image to "InputFieldBackground", this should be a default image you can use.
+
+31. Change the color to a red
+
+32. Copy the background element, and rename it to foreground
+
+33. Set the Foreground bar's anchro and position to be placed on the left.
+
+34. If you change the width of the foreground bar, you should see it acting as a healthbar.
+
+35. Set the Foreground element to a child of background
+
+36. Then, in your canvas, set the Render Mdoe in Canvas to "World Space"
+
+37. Now, set the entire canvas to a child of the Player GameObject
+
+38.  The healthbar will be huge, so set the scale of x, y, and z to .01, then raise the y position to about 1.5, or until it's above the player's head.
+
+39. Apply the changes to the player
+
+40. Go back into the Health script, the script is going to adjust the width of the foreground bar.
+
+41. Up top, add the using UnityEngine.UI toolkit to the top. 
+      
+      Create a new public RectTransform called healthBar
+      
+      In the method, set healthBar.sizeDelta to equal a new Vector2 (currentHealth * 2, healthBar.sizeDelta.y);
+      
+      Save your script.
+      
+      On your player, put the "foreground" element into your new public RectTransform.
+      
+      Apply the changes to your player.
+     
+     It should look like this:
+     
+     ![ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/Multiplayer-and-Networking/Assets/Screen%20Shot%202018-01-20%20at%2012.37.55%20AM.png)
+     
+42. Create a new C# script, this script is going to make sure teh healthbar always faces the main camera
+
+   Name the new C# script "Billboard"
+   
+   In our void Update method, set the transform to lookAt our (Camera.main.transform)
+   
+   It should look like this:
+   
+   ![ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/Multiplayer-and-Networking/Assets/Screen%20Shot%202018-01-20%20at%2012.41.16%20AM.png)
+   
+   Attach this script to our "playerHealth Canvas" so that it always faces the camera even though the player may not.
+   
+43. Save your work
+
+44. Go back to our playerHealth script
+
+      Inherit the playerHealth class from NetworkBehaviour instead of MonoBehaviour.
+      
+      Now, add a new [SyncVar] attribute to our currentHealth variable.  
+      
+      SyncVar means that when there's a change to our playerHealth on the server, it will notify our individual clients.  This is important when a specific component/element needs to be correctly synced on the server and the client.
+      
+45. Now, add an "if" statement that says is it's not the server, return.  That way if it's the client it will ignore the instructions, but the server will continue to follow the script.
+
+   This is what it should look like:
+   
+   ![ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/Multiplayer-and-Networking/Assets/Screen%20Shot%202018-01-20%20at%201.07.50%20AM.png)
+   
+46. Now, we are going to make a few new changes to the Health script.
+
+      If we tested our game, our server would have updated our health but unfortunately we wouldnt see it on our client side.  So now we're going to add a new method that will update our client with our health.
+
+      Create a new method called OnChangeHealth(int health)
+      
+      Take our line of code that says healthBar.sizeDelta = new Vector2(healthBar * 2, healthBar.sizeDelta) and move it into our new method.
+      
+      Now, change the healthBar inside of our vector2 to refer to our health * 2, instead of healthBar * 2.
+      
+47. Inside of our SyncVar attribute, were going to add a Hook, this will be equal to the method we just created. 
+
+   SyncVar hooks will link a function to the SyncVar. These functions are invoked on the Server and all Clients when the value of the SyncVar changes.
+   
+   Your SyncVar should look like: [SyncVar(Hook = "OnChangeHealth")]
+   
+   It should look like this:
+   
+   [ScreenShot](https://raw.githubusercontent.com/junior-devleague/unity/master/exercises/Multiplayer-and-Networking/Assets/Screen%20Shot%202018-01-20%20at%201.25.19%20AM.png)
+   
+   Now, our healthbars should be perfectly synced between our client and server.  Test to make sure.
+   
+ 48. Save your work.
+ 
+   We are now going to move on to Dying and Respawning
+
+ 49. 
