@@ -67,3 +67,12 @@ We are also allowed to create arrays public so that we can access it inside of t
 
 This will return us an array that will store all of our GameObjects into the array.
 
+# Practice
+
+1. Is this correct declaration of an array?
+
+`public string[] weapons;`
+
+2. Create a new int array.  Add 5 values (of your choice) from the inspector.
+ 
+3. Create an array of boolean values
