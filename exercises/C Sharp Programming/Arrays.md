@@ -1,6 +1,6 @@
 # Arrays and Loops
 
-This guide is going to give you an understanding of Arrays and For-Loops.  Arrays and Loops work interchangeably so it is a good idea to know what Arrays are first before going into Loops.
+This guide is going to give you an understanding of Arrays before for-loops.  Arrays and Loops work interchangeably so it is a good idea to know what Arrays are first before going into Loops.
 
 ## What are Arrays?
 
